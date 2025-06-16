@@ -4,11 +4,11 @@
 
 RFM Analysis is essential for effective customer segmentation, focusing on three critical dimensions: Recency, Frequency, and Monetary Value.
 
-1. Recency: This metric assesses the time since a customer's last purchase. Understanding recency helps us gauge customer engagement levels. A recent purchase signifies an active customer who is likely more receptive to further communications and promotional offers.
+1. Recency: This metric assesses the time since a customer's last purchase. If a customer bought something recently, it shows they are active and more likely to respond to our messages and offers.
 
-2. Frequency: This measures how often a customer makes purchases over a specified period. Frequency indicates the consistency of a customer's transactions. High-frequency customers demonstrate strong loyalty and satisfaction, whereas infrequent purchasers may need targeted re-engagement strategies to rekindle their interest.
+2. Frequency: This measures how often a customer makes purchases over a specified period. Customers who buy regularly are usually more loyal and satisfied. On the other hand, those who don’t buy often might need some encouragement to shop again.
 
-3. Monetary: This evaluates the total amount a customer has spent on purchases. Analyzing monetary value allows us to identify high-value customers who significantly contribute to revenue. Conversely, customers with lower spending may require tailored initiatives to encourage increased purchasing activity.
+3. Monetary: This evaluates the total amount a customer has spent on purchases. By looking at this, we can find our most valuable customers who help bring in revenue. Customers who spend less might need special offers to get them to buy more.
 
 ## Project Overview
 
