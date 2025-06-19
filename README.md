@@ -20,15 +20,23 @@ The dataset used for this analysis is available on Kaggle.
 
 https://www.kaggle.com/code/yugagrawal95/rfm-analysis/input
 
+![image](https://github.com/user-attachments/assets/afd0bf50-c19f-4469-928e-bcf37c744353)
+
+
 ## Analysis & Insight
+
+### Sales Trend
 
 ![image](https://github.com/user-attachments/assets/41feab06-949d-4009-8e5c-57fbae5e88c8)
 
-![image](https://github.com/user-attachments/assets/d9bcf493-e901-4bfc-9aec-a53c70d5692c)
+This line graph shows a fluctuating trend in total sales over the months from December 2010 to December 2011. Sales start at around 500,000 in December 2010, indicating a moderate beginning. There are several ups and downs throughout the months, with notable peaks and troughs. For instance, sales dip around mid-2011, suggesting a possible seasonal variation or other market influences. A significant spike occurs in November 2011, where total sales peak at just under 1,000,000. This could point to a successful marketing campaign, product launch, or seasonal demand. In December 2011, due to lack of data, we can't determine the trend of this whole month.
 
-![image](https://github.com/user-attachments/assets/1dc812cc-2467-4107-a563-43288ba9a276)
 
 ### RFM Insight
+
+![image](https://github.com/user-attachments/assets/3bf538cd-13aa-4675-b13f-8ddbb50dee40)
+
+
 
 1. Recency:
 - Champions: This segment shows the lowest recency (5.4 days), indicating they have interacted very recently and are highly engaged customers.
@@ -46,11 +54,75 @@ https://www.kaggle.com/code/yugagrawal95/rfm-analysis/input
 
 ### Segment Analysis
 
-- Champions: These are the most valuable customers, frequently purchasing and spending significantly. Strategies should focus on loyalty programs and personalized offers to retain them.
-- At Risk: This group should be targeted with re-engagement campaigns to bring them back, as they have not interacted for a considerable time but still have potential.
-- Hibernating: With high recency, these customers need targeted communication to revive their interest.
-- Loyal Customers: Although they engage regularly, their spending is moderate. Upselling and cross-selling strategies could enhance their monetary contributions.
-- New Customers: They need nurturing to increase their frequency and spending, potentially through welcome campaigns and special offers.
+1. About to Sleep
+- Recency Mean: 52.43 (indicates customers haven't purchased in a while)
+- Frequency Mean: 1.0 (low frequency of purchases)
+- Monetary Mean: $1,431.07 (moderate spending)
+- Count: 324
+- Insight: This segment is at risk of becoming inactive. Targeted re-engagement strategies could help revitalize interest.
+
+2. At Risk
+- Recency Mean: 153.45 (customers haven't purchased recently)
+- Frequency Mean: 1.0 (low purchase frequency)
+- Monetary Mean: $1,036.47 (decent spending)
+- Count: 532
+- Insight: These customers are at a critical point. Immediate action is needed to prevent churn, such as personalized offers or targeted marketing campaigns.
+
+3. Can't Lose
+- Recency Mean: 30.51 (recently engaged customers)
+- Frequency Mean: 2.0 (low frequency but engaged)
+- Monetary Mean: $2,247.51 (high spending)
+- Count: 59
+- Insight: This segment represents high-value customers who should be nurtured with loyalty programs and personalized communication to maintain engagement.
+
+4. Champions
+- Recency Mean: 5.39 (very recent purchases)
+- Frequency Mean: 12.0 (high purchase frequency)
+- Monetary Mean: $2,677.56 (highest spending)
+- Count: 577
+- Insight: These customers are the most valuable. Strategies should focus on retention and loyalty rewards to keep them engaged.
+
+5. Hibernating
+- Recency Mean: 112.29 (significant time since last purchase)
+- Frequency Mean: 1.0 (low frequency)
+- Monetary Mean: $271.65 (low spending)
+- Count: 170
+- Insight: This segment may need reactivation strategies to encourage spending again.
+
+6. Loyal Customers
+- Recency Mean: 32.71 (recent purchases)
+- Frequency Mean: 6.0 (moderate frequency)
+- Monetary Mean: $2,646.68 (high spending)
+- Count: 742
+- Insight: These customers are loyal and should be rewarded with exclusive offers to reinforce their loyalty.
+
+7. Need Attention
+- Recency Mean: 61.61 (some time since last purchase)
+- Frequency Mean: 2.0 (moderate frequency)
+- Monetary Mean: $1,142.80 (decent spending)
+- Count: 324
+- Insight: This segment needs targeted marketing efforts to boost engagement and spending.
+
+8. New Customers
+- Recency Mean: 12.61 (recently acquired customers)
+- Frequency Mean: 1.0 (low frequency)
+- Monetary Mean: $213.19 (low spending)
+- Count: 86
+- Insight: Focus on onboarding these customers effectively to encourage repeat purchases.
+
+9. Potential Loyalists
+- Recency Mean: 16.35 (recent purchases)
+- Frequency Mean: 1.0 (low frequency)
+- Monetary Mean: $213.19 (low spending)
+- Count: 86
+- Insight: This segment has potential. Implementing loyalty programs could help convert them into loyal customers.
+
+10. Promising
+- Recency Mean: 22.83 (recently engaged)
+- Frequency Mean: 1.0 (low frequency)
+- Monetary Mean: $213.19 (low spending)
+- Count: 86
+- Insight: This segment needs encouragement to increase spending and frequency of purchases.
 
 ## Conclusion
 
